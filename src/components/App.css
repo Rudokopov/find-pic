@@ -1,0 +1,33 @@
+.App {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-search {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.App-cards {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, minmax(210px, 1fr));
+  grid-auto-flow: dense;
+  column-gap: 15px;
+}
+
+@media (max-width: 1200px) {
+  .App-cards {
+    grid-template-columns: repeat(2, minmax(210px, 1fr));
+  }
+}
+
+
+@media (max-width: 850px) {
+  .App-cards {
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  }
+}

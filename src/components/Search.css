@@ -1,0 +1,13 @@
+.search-input {
+  font-family: 'Climate-Crisis';
+  width: 350px;
+  height: 5px;
+  padding: 15px 10px;
+  margin-right: 20px;
+}
+
+@media (max-width: 520px) {
+  .search-input {
+    width: 200px;
+  }
+}

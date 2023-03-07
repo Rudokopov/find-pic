@@ -1,0 +1,17 @@
+.card-container {
+  margin-bottom: 50px;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+  box-shadow: 1px 0 5px #111;
+}
+
+.card-description {
+  font-family: 'Climate-Crisis';
+  font-size: 19px;
+  max-width: 390px;
+}

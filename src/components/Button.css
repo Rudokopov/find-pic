@@ -1,0 +1,13 @@
+.button {
+  font-family: 'Climate-Crisis';
+  text-transform: uppercase;
+  width: 100px;
+  padding: 8px 10px;
+  font-size: 16px;
+}
+
+@media (max-width: 520px) {
+  .button {
+    width: 90px;
+  }
+}

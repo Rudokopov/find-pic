@@ -1,0 +1,18 @@
+.download-img {
+  z-index: 5;
+  justify-self: end;
+  width: 100px;
+  background-color: #f2f3f4;
+  animation: spiner;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spiner {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

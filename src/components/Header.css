@@ -1,0 +1,15 @@
+.header {
+
+}
+
+.header-logo {
+  max-width: 300px;
+  max-height: 150px;
+}
+
+@media (max-width: 450px) {
+  .header-logo {
+    max-width: 150px;
+    max-height: 100px;
+  }
+}
